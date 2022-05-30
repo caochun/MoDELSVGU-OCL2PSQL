@@ -4,7 +4,7 @@ public class Main {
 	public static void main (String[] args) {
 		OCL2PSQL ocl2psql = new OCL2PSQL();
 		try {
-			ocl2psql.setDataModelFromFilePath("src/main/resources/context-model/CarPerson_context-new-model.json");
+			ocl2psql.setDataModelFromFilePath("OCL2PSQL/src/main/resources/context-model/CarPerson_context-new-model.json");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
